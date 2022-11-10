@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+using namespace std;
 
 int main(){
     float a;
@@ -7,10 +9,11 @@ int main(){
     a=0;
     b=0;
     c=0;
-    std::cin >> a >> b >> c;
-    std::cout<<(a*b)*0.5<<std::endl;
-    std::cout<<(a*a)<<std::endl;
-    std::cout<<(a*b)<<std::endl;
-    std::cout<<((a+b)*c)*0.5<<std::endl;
+    cin >> a >> b >> c;
+    cout<<(a*b)*0.5<<std::endl;
+    cout<<pow(a,2)<<std::endl;
+    cout<<(a*b)<<std::endl;
+    cout<<((a+b)*c)*0.5<<std::endl;
     return 0;
 }
+
