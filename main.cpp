@@ -1,16 +1,14 @@
 #include <iostream>
-#include <cmath>
-using namespace std;
 
 int main(){
     float a = 0;
     float b = 0;
     float c = 0;
-    cout<<"Inserire il valore di a, b e c: "<<endl;
+    std::cout<<"Inserire il valore di a, b e c: "<<std::endl;
     cin >> a >> b >> c;
-    cout<<"Area triangolo: "<<(a*b)/2<<endl;
-    cout<<"Area quadrato: "<<pow(a,2)<<endl;
-    cout<<"Area rettangolo: "<<a*b<<endl;
-    cout<<"Area trapezio: "<<((a+b)*c)/2<<endl;
+    std::cout<<"Area triangolo: "<<(a*b)/2<<std::endl;
+    std::cout<<"Area quadrato: "<<a*a<<std::endl;
+    std::cout<<"Area rettangolo: "<<a*b<<std::endl;
+    std::cout<<"Area trapezio: "<<((a+b)*c)/2<<std::endl;
     return 0;
 }
