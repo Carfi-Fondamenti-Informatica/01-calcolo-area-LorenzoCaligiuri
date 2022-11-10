@@ -7,10 +7,10 @@ int main(){
     float b=0;
     float c=0;
     cin >> a >> b >> c;
-    cout<<(a*b)*0.5<<std::endl;
-    cout<<pow(a,2)<<std::endl;
-    cout<<(a*b)<<std::endl;
-    cout<<((a+b)*c)*0.5<<std::endl;
+    cout<<(a*b)*0.5<<endl;
+    cout<<pow(a,2)<<endl;
+    cout<<(a*b)<<endl;
+    cout<<((a+b)*c)*0.5<<endl;
     return 0;
 }
 
